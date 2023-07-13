@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
       if (response.ok) {
         // If the request was successful, redirect the user to the success page
-        window.location.href = '/create-user-success.html'; // Replace with the URL of your success page
+        window.location.href = '/hotspot/create-user-success.html'; // Replace with the URL of your success page
       } else {
         // If the request failed, display an error message
         alert('Failed to create user. Please try again.');
